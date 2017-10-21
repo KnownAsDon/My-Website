@@ -1,0 +1,404 @@
+body{
+	background-color: #9d8676;
+}
+
+@font-face{
+	font-family: Josefin Sans Regular;
+	src: url("fonts/Josefin Sans Regular.ttf");
+}
+
+@font-face{
+	font-family: lionwrite;
+	src: url("fonts/lionwrite.ttf");
+}
+
+@font-face{
+	font-family: velocity-font.ttf
+	src: url("fonts/velocity-font.ttf");
+}
+
+@font-face{
+	font-family: AcmeFont Regular;
+	src: url("fontsAcmeFont Regular.ttf");
+}
+
+@font-face{
+	font-family: FrancoisOne;
+	src: url("fonts/FrancoisOne");
+}
+
+@font-face{
+	font-family: Signika-Regular;
+	src :url(fonts/Signika-Regular.otf);
+}
+
+header{
+	background-image: url("images/wooden background.jpg");
+	background-size: cover;
+	max-height: 400px;
+}
+
+div.version h1{
+	color: white;
+	font-size: 15px;
+	float: left;
+	margin-left: 10px;
+	opacity: 0.5;
+}
+
+nav a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 15px;
+	font-family: sans-serif;
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	letter-spacing: 2px;
+}
+
+header h1{
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 80px;
+}
+header span {
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid white;
+    display: inline-block;  
+    margin-top: 20px;
+}
+
+p.info{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	padding-bottom: 60px;
+	margin-top: -40px;
+	font-family: sans-serif;
+}
+
+div.information-squares{
+	margin-top: 100px;
+}
+
+p.about-me{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #55473e;
+	opacity: 0.5;
+	padding-bottom: 20px;
+}
+
+
+div.photoshop{
+	border: 1px solid #55473e;
+	width: 350px;
+	height: 700px;
+	float: left;
+	background-color: #55473e;
+}
+
+div.filmora{
+	border: 1px solid #55473e;
+	width: 350px;
+	height: 700px;
+	margin: auto;
+	background-color: #55473e;
+}
+
+div.blender{
+	border: 1px solid #55473e;
+	width: 350px;
+	height: 700px;
+	float: right;
+	margin-top: -702px;
+	background-color: #55473e;
+}
+
+div.photoshop img{
+	width: 350px;
+	height: 350px;
+}
+
+div.filmora img{
+	width: 350px;
+	height: 350px;
+}
+
+div.blender img{
+	width: 350px;
+	height: 350px;
+}
+
+p.photoshop{
+	color: #9d8676;
+	text-align: center;
+	font-size: 36px;
+	font-family: Signika-Regular;
+}
+
+p.filmora{
+	color: #9d8676;
+	text-align: center;
+	font-size: 35px;
+	font-family: Signika-Regular;
+}
+
+p.blender{
+	color: #9d8676;
+	text-align: center;
+	font-size: 35px;
+	font-family: Signika-Regular;
+	letter-spacing: 1px;
+}
+
+strong.photoshop{
+	font-weight: 100px;
+}
+
+strong.filmora{
+	font-weight: 100px;
+}
+
+strong.blender{
+	font-weight: 100px;
+}
+
+section.about-me-information{
+	margin-top: 60px;
+}
+
+div.about-me-information{
+	background-color: #55473e;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+div.about-me-information span{
+	border-color: #55473e;
+}
+
+section.about-me-information img{
+	margin-left: 40px;
+}
+
+div.netowrk-computerbuild img{
+	float: right;
+}
+
+div.keyboard img{
+	width: 260px;
+	height: 260px;
+	float: right;
+	border-radius: 50%;
+	margin-left: -30px;
+}
+
+div.network img{
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	margin-left: -30px;
+}
+
+div.computerbuild img{
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	margin-left: -30px;
+}
+
+div.about-me-information p{
+	text-align: center;
+	clear: all;
+	float: right;
+	color: #9d8676;
+	font-family: Signika-Regular;
+	margin-left: 240px;
+}
+
+section.contact-me{
+	background-color: #55473e;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+
+div.contact-me h3{
+	color: #55473e;
+	font-size: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	opacity: 0.5;
+	padding-top: 20px;
+}
+
+span.name{
+	border: 3px solid #9d8676;
+	padding-right: 300px;
+	margin-left: 320px;
+	font-family: sans-serif;
+	color: #9d8676;
+	opacity: 0.5;
+}
+
+span.email{
+	border: 3px solid #9d8676;
+	float: right;
+	margin-top: -44px;
+	padding-right: 300px;
+	margin-right: 270px;
+	font-family: sans-serif;
+	color: #9d8676;
+	opacity: 0.5;
+}
+
+span.subject{
+	border: 3px solid #9d8676;
+	padding-right: 675px;
+	margin-left: 320px;
+	font-family: sans-serif;
+	color: #9d8676;
+	opacity: 0.5;
+}
+
+span.message{
+	border: 3px solid #9d8676;
+	padding-right: 666px;
+	padding-bottom: 200px;
+	margin-left: 320px;
+	font-family: sans-serif;
+	color: #9d8676;
+	opacity: 0.5;
+}
+
+span.send{
+	border: 3px solid #9d8676;
+	margin-left: 935px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: Signika-Regular;
+	font-size: 30px;
+	border-radius: 15px;
+	color: #55473e;
+	background-color: #9d8676;
+}
+
+footer{
+	margin-top: -450px;
+	margin-bottom: 10px;
+}
+
+div.footer-links{
+	background-color: #55473e;
+	padding-bottom: 30px;
+	margin-top: 500px;
+}
+
+div.get-started-footer{
+	margin-left: 150px;
+	margin-top: -20px;
+}
+
+div.about-me-footer{
+	margin-left: 350px;
+	margin-top: -103px;
+}
+
+div.support-footer{
+	margin-left: 550px;
+	margin-top: -105px;
+}
+
+footer h1.get-started{
+	font-size: 20px;
+	text-align: left;
+	color: #9d8676;
+	font-family: sans-serif;
+}
+
+footer h1.about-me{
+	font-size: 20px;
+	text-align: left;
+	color: #9d8676;
+	font-family: sans-serif;
+}
+
+footer h1.support{
+	font-size: 20px;
+	text-align: left;
+	color: #9d8676;
+	font-family: sans-serif;
+}
+
+div.get-started-footer a{
+	display: block;
+	color: #9d8676;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+div.about-me-footer a{
+	display: block;
+	color: #9d8676;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+div.support-footer a{
+	display: block;
+	color: #9d8676;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+div.logo img{
+	width: 120px;
+	height: 120px;
+	margin-bottom: -105px;
+	margin-left: 20px;
+}
+
+div.copyright{
+	text-align: center;
+	color: #55473e;
+}
+
+div.social-media img{
+	width: 60px;
+	height: 60px;
+	margin-left: -100px;
+}
+
+div.facebook{
+	margin-left: 300px;
+	margin-top: -80px;
+}
+
+div.twitter{
+	margin-left: 370px;
+	margin-top: -65px;
+}
+
+div.instagram{
+	margin-left: 440px;
+	margin-top: -60px;
+}
+
+div.follow-me-button h1{
+	border: 3px solid #9d8676;
+	border-radius: 40px;
+	float: right;
+	font-size: 40px;
+	margin-top: -65px;
+	margin-right: 120px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #9d8676;
+	color: #55473e;
+	font-family: Signika-Regular;
+}
